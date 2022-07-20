@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.profile_picture {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    object-fit: cover;
+    border: solid white 3px;
+}
+
+.name, .job {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.name {
+    font-size: 43px;
+    font-family: 'Roboto', BlinkMacSystemFont, sans-serif;
+}
+
+.job {
+    font-size: 25px;
+    font-family: 'Roboto', BlinkMacSystemFont, sans-serif;
+}
+
+.social {
+    padding-top: 30px;
+    display: inline-block;
+}
+
+.section_title {
+    color: #23a6d5;
+    font-family: 'Roboto', BlinkMacSystemFont, sans-serif;
+    font-size: 34px;
+}
+.project_subtitle {
+    color: black;
+    font-family: 'Roboto', BlinkMacSystemFont, sans-serif;
+    font-size: 19px;
+    padding-top: 12px;
+}
+.project_date {
+    color: gray;
+    font-family: 'Roboto', BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    padding-top: 8px;
+}
+
+.project_title {
+    color: black;
+    font-family: 'Roboto', BlinkMacSystemFont, sans-serif;
+    font-size: 25px;
+}
+
+.project_image {
+    width: 100%;
+    max-width: 250px;
+    padding: 25px 10px 0px 0px;
+}
+
+#projects {
+    padding-top: 40px;
+}
+
+.social_button {
+    color: black;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    height: 25px;
+    width: 120px;
+    top: 0;
+    border: none;
+    display: inline-block;
+    border-radius: 30px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: rgba(255, 255, 255, 0.9);
+    position: relative;
+    mix-blend-mode: overlay;
+    text-decoration: none;
+    font-family: 'Roboto', BlinkMacSystemFont, sans-serif;
+    font-size: 1.25em;
+    transition: top 0.2s ease-in-out, background 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.social_button:hover {
+    top: -6px;
+    box-shadow: 0px 1px 8px white;
+    background: white;
+    color: #FF4260;
+    mix-blend-mode: initial;
+}
+
+#header {
+    padding: 10px;
+    margin: 0;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% auto;
+	animation: gradient 20s ease infinite;
+    text-align: center;
+}
+
+#projects_section {
+    margin: 25px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
